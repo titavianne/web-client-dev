@@ -1,0 +1,5 @@
+// 5. Mendapatkan inisial dari nama dalam huruf besar
+function getInitialsTS(name: string): string {
+    return name.split(' ').map(word => word[0].toUpperCase()).join('');
+}
+console.log(getInitialsTS("John Doe")); // Output: JD
