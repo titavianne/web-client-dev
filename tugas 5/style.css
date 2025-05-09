@@ -1,0 +1,40 @@
+/* Umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Section */
+section {
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Responsif sederhana */
+@media (max-width: 600px) {
+  section {
+    margin: 5px;
+    padding: 10px;
+  }
+}
